@@ -1,4 +1,4 @@
-**Overview**
+## Overview
 This project aims at examining the relationship between personality traits and drug consumption based on the Drug consumption (quantified) Data Set. The Dataset contains 35 variables of 1885 people.. First, the normalized data is coded into more apprehensible, numeric categories. Then further features are engineered to highlight deeper data structures. The engineered variables are: soft drug consumption, hard drug consumption, legal drug consumption, illegal drug consumption, synthetic and nonsynthetic drug consumption, recent consumtion, hard score and hardliners.
 
 The hard score (hard_score) is build of the mean of neuroticism, extraversion, impulsiveness and sensation seeking. The hardliner variable, however, comprises only the 10% highest hard scores. Business Case
@@ -7,18 +7,18 @@ A drug prevention organization is interested in the use frequency of illegal dru
 
 The project was part of a data science bootcamp and should cover all stages of the data science cycle:
 
-Data Science Lifecycle
-#1 Business Understanding
-#2 Data Mining
-#3 Data Cleaning
-#4 Data Exploration
-#5 Feature Engineering
-#6 Predictive Modeling
-#7 Data Visualization
+## Data Science Lifecycle
+* 1 Business Understanding
+* 2 Data Mining
+* 3 Data Cleaning
+* 4 Data Exploration
+* 5 Feature Engineering
+* 6 Predictive Modeling
+* 7 Data Visualization
 Python Modules used:
 Pandas / NumPy / Matplotlib / Seaborn / Plotly / sklearn
 
-Used ML Models
+## Used ML Models
 Models were applied and compared for recall and accuracy scores
 
 XGBClassifier
