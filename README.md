@@ -21,29 +21,33 @@ Pandas / NumPy / Matplotlib / Seaborn / Plotly / sklearn
 ## Used ML Models
 Models were applied and compared for recall and accuracy scores
 
-XGBClassifier
-AdaBoost
-RandomForestClassifier
-Support Vector Machine
-DecisionTreeClassifier
-Conclusions
-reliable prediction of hardliners is not possible with current data
-reliable prediction of illegal drug users on the other hand is possible based on: sensation seeking, ethnicity, openness to new experiences, country, conscientiousness, age
-illegal drug use is a widespread issue throughout society
-Future Work
+* XGBClassifier
+* AdaBoost
+* RandomForestClassifier
+* Support Vector Machine
+* DecisionTreeClassifier
+
+## Conclusions
+* reliable prediction of hardliners is not possible with current data
+* reliable prediction of illegal drug users on the other hand is possible based on: sensation seeking, ethnicity, openness to new experiences, country, conscientiousness, age
+* illegal drug use is a widespread issue throughout society
+
+## Future Work
 Data related implications:
 
-collect data on socioeconomic status
-collect data on amount of drug doses
-collect data on clinical diagnoses
-collect data on abuse and addiction
-collect timeline data to identify co-morbidity of diverse substance abuse or/and addiction
-Model related implications:
+* collect data on socioeconomic status
+* collect data on amount of drug doses
+* collect data on clinical diagnoses
+* collect data on abuse and addiction
+* collect timeline data to identify co-morbidity of diverse substance abuse or/and addiction
+
+## Model related implications:
 
 try unsupervised machine learning models
 apply regression models on continuous data
 new model for hardliner prediction
-Files and Folders
-Drug_Risk_and_Personality_Traits.ipynb : jupyter notebook with Exploratory Data Analysis (EDA), python code, visualizations and documentation
-Drugs_and_Personality_Traits_DataScience_Project.pdf : Presentation of the results of the Data Visualization
-Drug_Risk.xls : Dataset
+
+## Files and Folders
+* Drug_Risk_and_Personality_Traits.ipynb : jupyter notebook with Exploratory Data Analysis (EDA), python code, visualizations and documentation
+* Drugs_and_Personality_Traits_DataScience_Project.pdf : Presentation of the results of the Data Visualization
+* Drug_Risk.xls : Dataset
